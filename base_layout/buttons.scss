@@ -5,6 +5,11 @@ name: a-buttons
 category: Base layout > Buttons
 ---
 
+```html_example
+<button type="button" class="btn btn-primary">Primary</button>
+```
+
+
 | Preview                                                        | Class                      |
 |----------------------------------------------------------------|----------------------------|
 | <button type="button" class="btn btn-default">Default</button> | <pre>btn btn-default</pre> |
@@ -71,117 +76,4 @@ category: Base layout > Buttons
   <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
 </p>
 ```
-*/
-
-
-
-/*doc
----
-title: Button groups
-name: d-button-groups
-category: Base layout > Buttons
----
-
-Work with each button variant
-
-```html_example
-<!-- Horizontal group -->
-<div class="btn-group">
-  <button type="button" class="btn"><i class="glyphicon glyphicon-align-left"></i></button>
-  <button type="button" class="btn"><i class="glyphicon glyphicon-align-center"></i></button>
-  <button type="button" class="btn"><i class="glyphicon glyphicon-align-right"></i></button>
-</div>
-
-<br><br>
-
-<!-- Vertical group -->
-<div class="btn-group-vertical">
-  <button type="button" class="btn btn"><i class="glyphicon glyphicon-home"></i></button>
-  <button type="button" class="btn btn"><i class="glyphicon glyphicon-user"></i></button>
-  <button type="button" class="btn btn"><i class="glyphicon glyphicon-comment"></i></button>
-  <button type="button" class="btn btn"><i class="glyphicon glyphicon-cog"></i></button>
-</div>
-```
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="btn-group">
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-      <br><br>
-      <div class="btn-group">
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-      <br><br>
-      <div class="btn-group">
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="btn-group">
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-      <br><br>
-      <div class="btn-group">
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-      <br><br>
-      <div class="btn-group">
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-align-left"></i></button>
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-align-center"></i></button>
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-align-right"></i></button>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-info"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-warning"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-      <div class="btn-group-vertical">
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-home"></i></button>
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-user"></i></button>
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-comment"></i></button>
-        <button type="button" class="btn btn-danger"><i class="glyphicon glyphicon-cog"></i></button>
-      </div>
-    </div>
-  </div>
-</div>
 */
