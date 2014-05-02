@@ -1,0 +1,30 @@
+/*doc
+---
+title: Images
+name: b-images
+category: Base layout > Visual
+---
+
+
+```html_example
+<figure>
+  <img src="http://lorempixel.com/700/400/sports" alt="Some sport image">
+  <figcaption>Note : Lorem ipsum dolor sit amet, consectetur adipiscing elit.</figcaption>
+</figure>
+```
+*/
+
+/*doc
+---
+title: Images shapes
+name: c-images-shape
+category: Base layout > Visual
+---
+
+
+```html_example
+<img src="http://lorempixel.com/150/150/sports" alt="Some sport image" class="img-rounded">
+<img src="http://lorempixel.com/150/150/sports" alt="Some sport image" class="img-circle">
+<img src="http://lorempixel.com/150/150/sports" alt="Some sport image" class="img-thumbnail">
+```
+*/
