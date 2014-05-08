@@ -1,6 +1,6 @@
 # Holostrap : a Bootstrap and Hologram starter kit
 
-> This is a SASS base kit you can use for your project and easily build a styleguide with [Hologram](https://github.com/trulia/hologram) and [Cortana](http://yago31.github.io/Cortana-example)
+> This is a SASS base kit you can use for your project and easily build a styleguide with [Hologram](https://github.com/trulia/hologram) and [Cortana](https://github.com/Yago31/Cortana)
 
 ## Usage
 
