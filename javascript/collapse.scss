@@ -54,3 +54,26 @@ category: JavaScript > Collapse
 </div>
 ```
 */
+
+
+
+/*doc
+---
+title: Collapse button
+name: b-collapse-button
+category: JavaScript > Collapse
+---
+
+```html_example
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+  Collapse
+</button>
+
+<br><br>
+
+<div id="demo" class="collapse">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Non est igitur voluptas bonum. Teneo, inquit, finem illi videri nihil dolere. Non quam nostram quidem, inquit Pomponius iocans; Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Duo Reges: constructio interrete. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt.
+</div>
+```
+*/
+
